@@ -7,11 +7,12 @@ const Product = (props) => {
 
     // Destructure Part For BONUS 
 
-    const  {name, image, price} = props.product;
+    const { name, img, price } = props.product;
 
     return (
         <div className='product'>
-            
+            <img src={img} alt=""></img>
+
         </div>
     );
 };
