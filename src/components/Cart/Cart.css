@@ -3,3 +3,20 @@
     background-color: rgba(250, 235, 215, 0.788);
     text-align: center;
 }
+.choose-button{
+    margin: .5rem;    
+    width: 50%;
+    background-color: rgba(241, 241, 211, 0.808);
+    border-radius: 5px;
+}
+.choose-button:hover{
+    background-color: rgba(158, 158, 91, 0.651);
+}
+
+.choose-button-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    font-weight: 700;
+    margin-right: 15px;
+    
+}
