@@ -21,14 +21,16 @@
 }
 
 .product-button{
-    margin: 2rem;
+    margin: 2rem;    
     width: 50%;
     background-color: beige;
     border-radius: 5px;
 }
+
 .product-button:hover{
     background-color: rgb(233, 233, 183);
 }
+
 .product-button p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;

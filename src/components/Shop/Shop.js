@@ -12,12 +12,15 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
+    const handlerToAddCart = () => {
+        console.log('clicked');
+    }
 
     return (
         <div className='shop-container'>
             <div className="product-container">
                 {
-                    products.map(product => <Product key={product.id} product={product}></Product>)
+                    products.map(product => <Product key={product.id} product={product} handlerToAddCart={handlerToAddCart}></Product>)
                 }
             </div>
             <div className="cart-container">
@@ -28,4 +31,4 @@ const Shop = () => {
     );
 };
 
-export default Shop;
+export default Shop;  
