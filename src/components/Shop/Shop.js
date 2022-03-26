@@ -5,10 +5,14 @@ import './Shop.css';
 
 const Shop = () => {
     return (
-        <div>
-            <h1>Shop Part</h1>
-            <Product></Product>
-            <Cart></Cart>
+        <div className='shop-container'>
+            <div className="product-container">
+                <Product></Product>
+            </div>
+            <div className="cart-container">
+                <Cart></Cart>
+            </div>
+
         </div>
     );
 };
