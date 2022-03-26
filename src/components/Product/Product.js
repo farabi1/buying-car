@@ -1,10 +1,17 @@
 import React from 'react';
 import './Product.css';
 
-const Product = () => {
+const Product = (props) => {
+
+    console.log(props.product);
+
+    // Destructure Part For BONUS 
+
+    const  {name, image, price} = props.product;
+
     return (
-        <div>
-            <h3>Product Part</h3>
+        <div className='product'>
+            
         </div>
     );
 };
