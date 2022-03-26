@@ -12,8 +12,9 @@ const Product = (props) => {
     return (
         <div className='product'>
             <img src={img} alt=""></img>
-            <h2>Name : {name}</h2>
-            <h2>Price : {price}</h2>
+            <h2 className='product-name'>Name : {name}</h2>
+            <h2 className='product-price'>Price : $ {price}/-</h2>
+            <button className='product-button'><p>Add to Cart</p></button>
 
         </div>
     );

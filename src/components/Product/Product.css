@@ -1,6 +1,36 @@
 .product{
     margin: 3rem;
+    border: 1px solid rgb(41, 71, 102);
+    border-radius: 8px;
+    background-color: rgba(179, 167, 231, 0.342);
+    box-shadow: 10px 10px 25px grey;
+
+    
 }
- img{
-    width: 300px;   
+.product img{
+    width: 300px; 
+    margin: 2rem;  
 } 
+
+.product-name{
+    margin: 2rem;
+}
+
+.product-price{
+    margin: 2rem;
+}
+
+.product-button{
+    margin: 2rem;
+    width: 50%;
+    background-color: beige;
+    border-radius: 5px;
+}
+.product-button:hover{
+    background-color: rgb(233, 233, 183);
+}
+.product-button p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
