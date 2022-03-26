@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className='header-container'>
             <h1>Farabi Rashid- Eighth Assignment</h1>
         </div>
     );

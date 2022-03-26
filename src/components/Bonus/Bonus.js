@@ -3,7 +3,7 @@ import './Bonus.css'
 
 const Bonus = () => {
     return (
-        <div>
+        <div className='bonus-container'>
             <h1>Question and Answer </h1>
         </div>
     );
