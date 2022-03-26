@@ -18,6 +18,9 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    // BONUS PART 
+
+
     return (
         <div className='shop-container'>
             <div className="product-container">
