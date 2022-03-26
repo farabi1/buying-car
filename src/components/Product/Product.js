@@ -14,7 +14,7 @@ const Product = (props) => {
             <img src={img} alt=""></img>
             <h2 className='product-name'>Name : {name}</h2>
             <h2 className='product-price'>Price : $ {price}/-</h2>
-            <button onClick={handlerToAddCart} className='product-button'><p>Add to Cart</p></button>
+            <button onClick={() => handlerToAddCart(props.product)} className='product-button'><p>Add to Cart</p></button>
 
         </div>
     );
