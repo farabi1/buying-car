@@ -25,5 +25,3 @@ const Product = (props) => {
 };
 
 export default Product;
-
-{/* <FontAwesomeIcon icon="fa-solid fa-cart-plus" /> */}
