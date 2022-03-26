@@ -14,7 +14,6 @@ const Shop = () => {
     }, [])
 
     const handlerToAddCart = (product) => {
-        console.log(product);
         const newCart = [...cart, product];
         setCart(newCart);
     }
@@ -27,9 +26,8 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <p>selected : {cart.length}</p>
-                <Cart></Cart>
 
+                <Cart cart={cart}></Cart>
             </div>
 
         </div>
